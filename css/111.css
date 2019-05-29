@@ -99,7 +99,7 @@ a{
     text-decoration:none;
     font-size:12px;
     color:#666666;
-    line-height:36px;
+    line-height:30px;
 }
 .topl .topn .left a:hover{
     color:#ff6700;
@@ -121,7 +121,7 @@ a{
     color:#ff6700;
 }
 .topl .topn .rightn .rightz{
-    width:70.4px;
+    width:70px;
     height:36px;
     float:right;
 }
@@ -170,6 +170,42 @@ a{
 .topl .topn .right .box a{
     margin-left:15px;
 }
+.topl .topn i{
+    float: right;
+    margin-right: 15px;
+}
+.topl .topn .gouw{
+    position:absolute;
+    top:0;
+    right:430px;
+}
+.topl .topn .l{
+    position:absolute;
+    top:0;
+    right:362px;
+}
+.topl .topn .ll{
+    position:absolute;
+    top:0;
+    right:517px;
+}
+.topl .topn .lll{
+    position:absolute;
+    top:0;
+    right:587px;
+}
+.topl .topn .llll{
+    position:absolute;
+    top:0;
+    right:152px;
+}
+.topl .topn .lllll{
+    position:absolute;
+    top:0;
+    left:397px;
+    color:#EF711E;
+}
+
 
 /* 分割 */
 
@@ -223,6 +259,7 @@ a{
     cursor:pointer;
     font-size:18px;
     color:white;
+    outline:none;
 }
 .tops .topss a{
     font-size:12px;
@@ -324,6 +361,10 @@ a{
     width:170px;
     height:38px;
     float: right;
+}
+.topd .topdd .daoz p{
+
+    margin-top: 5px;
 }
 
 /* 分割 */
@@ -479,13 +520,15 @@ a{
 }
 .topb .lunbo .brightx img{
     display:block;
-    margin:0 auto;
-    margin-top:10px;
+    margin-left: 10px;  
+    margin-top:12px;
 }
 .topb .lunbo .brightx span{
-    margin-left:12px;
+    margin-left:10px;
     color:black;
+    display: block;
     font-size:12px;
+    margin-top: 2px;
 }
 .topb .lunbo .brightx span:hover{
     color:#ff6700;
@@ -514,27 +557,43 @@ a{
 .topb .lunbo .bodi a:hover{
     background-color: #FF9900;
 }
-.topb .lunbo .boz a{
-    width:32px;
+.topb .lunbo .boz{
+    width:25px;
     height:64px;
+    background-color: rgba(0,0,0,0.2);
     position:absolute;
-    bottom:0;
-    top:0;
-    margin:auto;
+    top:150px;
     left:190px;
+    line-height: 64px;
+    display:none;
 }
-.topb .lunbo .boy a{
-    width:32px;
+.topb .lunbo .boy{
+    width:25px;
     height:64px;
+    background-color: rgba(0,0,0,0.2);
     position:absolute;
-    bottom:0;
-    top:0;
-    margin:auto;
+    top:150px;
     right:170px;
+    line-height: 64px;
+    display:none;
+}
+.topb .lunbo .boz i{
+    color:white;
+    font-size:24px;
+}
+.topb .lunbo .boy i{
+    color:white;
+    font-size:24px;    
 }
 .boright .brights a{
     display: block;
     margin-top: 10px;
+}
+.lunbo:hover .boz{
+    display: block;
+}
+.lunbo:hover .boy{
+    display: block;
 }
 
 /* 分割 */
@@ -552,7 +611,7 @@ a{
     width:1190px;
     height:47px;
     margin:0 auto;
-    border-bottom:1px solid black;
+    border-bottom:0.5px solid rgb(218, 218, 218);
 }
 .heada .heads p{
     position:absolute;
@@ -620,7 +679,7 @@ a{
     height:240px;
     float:left;
     margin-top:10px;
-    border-right:1px solid rgb(202, 202, 202);
+    border-right:0.5px solid rgb(228, 228, 228);
 }
 .heada .heads img{
     display:block;
@@ -661,10 +720,9 @@ a{
     margin:0 auto;
 }
 .heada .headx span{
-    display:block;
-    font-size:15px;
-    margin-left:5px;
+    font-size:13px;
     margin-top:5px;
+    margin-left: 30px;
     text-align: center; 
     color:black;
 }
@@ -673,11 +731,84 @@ a{
 }
 .heada .headx pre{
     display:block;
-    font-size:18px;
+    font-size:16px;
     color:red;
-    margin-top:3px;
+    margin-top:8px;
     margin-left:30px;
+    font-weight:bold;
 }
+.heada .headx .hx img{
+    margin-top: 5px;
+}
+.heada .headx .hx .shanchu1{
+    font-size:11px;
+    color:rgb(173, 173, 173);
+    position:absolute;
+    left:70px;
+    top:253px;
+}
+.heada .headx .hx .shanchu2{
+    font-size:11px;
+    color:rgb(173, 173, 173);
+    position:absolute;
+    left:267px;
+    top:253px;
+}
+.heada .headx .hx .shanchu3{
+    font-size:11px;
+    color:rgb(173, 173, 173);
+    position:absolute;
+    left:466px;
+    top:253px;
+}
+.heada .headx .hx .shanchu4{
+    font-size:11px;
+    color:rgb(173, 173, 173);
+    position:absolute;
+    left:664px;
+    top:253px;
+}
+.heada .headx .hx .shanchu5{
+    font-size:11px;
+    color:rgb(173, 173, 173);
+    position:absolute;
+    left:863px;
+    top:253px;
+}
+.heada .headx .cez{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    left:0px;
+    top:130px;
+}
+.heada .headx .cey{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    right:203px;
+    top:130px;
+}
+.heada .headx i{
+    font-size: 22px;
+    line-height: 50px;
+    color:white;
+}
+.heada .headx .cez{
+    display:none;
+}
+.heada .headx .cey{
+    display: none;
+}
+.heada .headx:hover .cez{
+    display: block;
+}
+.heada .headx:hover .cey{
+    display: block;
+}
+
 
 /* 分割 */
 
@@ -936,10 +1067,76 @@ a{
     bottom:20px;
     left:203px;
 }
-
+.headb .box .zm{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    left:0;
+    top:210px;
+    line-height: 50px;
+}
+.headb .box .ym{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    left:370px;
+    top:210px;
+    line-height: 50px;   
+}
+.headb .zn .zmm{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    left:0;
+    top:210px;
+    line-height: 50px;
+}
+.headb .zn .ymm{
+    width:20px;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    left:370px;
+    top:210px;
+    line-height: 50px;    
+}
+.headb .zn i{
+    font-size: 18px;
+    color: white;
+}
+.headb .box i{
+    font-size: 18px;
+    color: white;
+}
+.headb .box .zm{
+    display:none;
+}
+.headb .box .ym{
+    display:none;
+}
+.headb .zn .zmm{
+    display:none;
+}
+.headb .zn .ymm{
+    display:none;
+}
+.headb .box:hover .zm{
+    display:block;
+}
+.headb .box:hover .ym{
+    display:block;
+}
+.headb .zn:hover .zmm{
+    display:block;
+}
+.headb .zn:hover .ymm{
+    display:block;
+}
 
 /* 分割 */
-
 
 .headc{
     width:1190px;
@@ -1164,8 +1361,6 @@ a{
     margin:0 auto;
     margin-top:10px;
 }
-
-
 .headd .zo .si .yan{
     width:150px;
     height:150px;
@@ -1202,8 +1397,6 @@ a{
     top:56%;
     left:62%;
 }
-
-
 .headd .zo .box{
     margin-left:0;
 }
@@ -1729,13 +1922,12 @@ a{
 /* 分割 */
 
 
-
 .end{
     width:1190px;
     height:80px;
     background-color:#F2F2F2;
     margin:0 auto;
-    color:rgb(105, 105, 105);
+    color:rgb(207, 207, 207);
     font-size:20px;
     line-height:80px;
     text-align: center; 
