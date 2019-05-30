@@ -179,6 +179,9 @@ a{
     top:0;
     right:430px;
 }
+.topl .topn a:hover i{
+    transform:rotate(-180deg);
+}
 .topl .topn .l{
     position:absolute;
     top:0;
@@ -343,7 +346,7 @@ a{
 }
 .topd  .topdd .daox a:hover i{
     transform:translateY(-20px);
-    transition:1s;
+    transition:0.3s;
     color:#FF9900;
 }
 .topd  .topdd .daox a{
@@ -402,13 +405,18 @@ a{
     color:white;
     font-size:12.5px;
 }
-.topb .boleft a:hover{
+.topb .boleft .zi:hover{
     width:190px;
     height:32px;
     display:block;
     background-color:white;
+}
+.topb .boleft .zi:hover a{
     color:#FF9900;
 }
+/* .topb .boleft a:hover{
+    color:#FF9900;
+} */
 .topb .boleft span{
     font-size:10px;
     color:rgb(105, 105, 105);
@@ -560,22 +568,24 @@ a{
 .topb .lunbo .boz{
     width:25px;
     height:64px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     position:absolute;
     top:150px;
     left:190px;
     line-height: 64px;
     display:none;
+    opacity: 0.5;
 }
 .topb .lunbo .boy{
     width:25px;
     height:64px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     position:absolute;
     top:150px;
     right:170px;
     line-height: 64px;
     display:none;
+    opacity: 0.5;
 }
 .topb .lunbo .boz i{
     color:white;
@@ -594,6 +604,12 @@ a{
 }
 .lunbo:hover .boy{
     display: block;
+}
+.lunbo .boz:hover{
+    opacity: 1;
+}
+.lunbo .boy:hover{
+    opacity: 1;
 }
 
 /* 分割 */
@@ -873,6 +889,7 @@ a{
     height:80px;
     margin:0 auto;
     overflow:hidden;
+    text-overflow:ellipsis;
 }
 .headb .san .siz span{
     display:block;
@@ -881,13 +898,12 @@ a{
     font-size:18px;
     color:black;
 }
-.headb .san .siz pre{
-    display:block;
+.headb .san .siz p{
     float:left;
     margin-top:5px;
     text-align: center;
     font-size:14px;
-    color:rgb(155, 153, 153);
+    color:rgb(158, 158, 158);
 }
 .headb .san .six{
     width:350px;
@@ -920,15 +936,6 @@ a{
     float:left;
     margin-top:10px;
 }
-.headb .san .wua pre{
-    display:block;
-    color:rgb(181, 187, 181);
-    font-size:14px;
-    line-height:22px;
-    margin-top:10px;
-    float: right;
-    margin-right:5px;
-}
 .headb .san .wu{
     width:194px;
     height:185px;
@@ -960,6 +967,15 @@ a{
     margin-left:10px;
     margin-top:5px;
     line-height:20px;
+}
+.headb .san .wua pre{
+    display:block;
+    color:rgb(181, 187, 181);
+    font-size:14px;
+    line-height:22px;
+    margin-top:10px;
+    float: right;
+    margin-right:5px;
 }
 .headb .san .wu img{
     display:block;
@@ -1517,6 +1533,12 @@ a{
     height:360px;
     float:left;
 }
+.fuzhi .left .lz img{
+    opacity: 1;
+}
+.fuzhi .left .lz img:hover{
+    opacity: 0.9;
+}
 .fuzhi .left .ly{
     width:400px;
     height:360px;
@@ -1664,6 +1686,12 @@ a{
     height:360px;
     float:right;
 }
+.fuzhi .right .lz img{
+    opacity: 1;
+}
+.fuzhi .right .lz img:hover{
+    opacity: 0.9;
+}
 .fuzhi .right .lx{
     width:590px;
     height:109px;
@@ -1765,7 +1793,7 @@ a{
 }
 .fuzhi .right .lx img:hover{
     transform:scale(1.05);
-    transition:1s;
+    transition:0.3s;
 }
 .fuzhi .right .lx dl{
     display:block;
@@ -1794,6 +1822,162 @@ a{
     float:left;
     background-color: #F9F9F9;
 }
+/*  */
+.fuzhi .left .ltop .lo{
+    width:4px;
+    height:20px;
+    background-color:rgb(226, 226, 45);
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .left .ltop .io{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:rgb(226, 226, 45);
+    float:left;
+}
+.fuzhi .right .ltop .lo{
+    width:4px;
+    height:20px;
+    background-color:rgb(226, 226, 45);
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .right .ltop .io{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:rgb(226, 226, 45);
+    float:left;
+}
+/*  */
+.fuzhi .left .ltop .loo{
+    width:4px;
+    height:20px;
+    background-color:peru;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .left .ltop .ioo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:peru;
+    float:left;
+}
+.fuzhi .right .ltop .loo{
+    width:4px;
+    height:20px;
+    background-color:peru;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .right .ltop .ioo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:peru;
+    float:left;
+}
+/*  */
+.fuzhi .left .ltop .looo{
+    width:4px;
+    height:20px;
+    background-color:pink;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .left .ltop .iooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:pink;
+    float:left;
+}
+.fuzhi .right .ltop .looo{
+    width:4px;
+    height:20px;
+    background-color:pink;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .right .ltop .iooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:pink;
+    float:left;
+}
+/*  */
+.fuzhi .left .ltop .loooo{
+    width:4px;
+    height:20px;
+    background-color:rgb(236, 25, 25);
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .left .ltop .ioooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:rgb(236, 25, 25);
+    float:left;
+}
+.fuzhi .right .ltop .loooo{
+    width:4px;
+    height:20px;
+    background-color:rgb(236, 25, 25);
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .right .ltop .ioooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:rgb(236, 25, 25);
+    float:left;
+}
+/*  */
+.fuzhi .left .ltop .looooo{
+    width:4px;
+    height:20px;
+    background-color:blue;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .left .ltop .iooooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:blue;
+    float:left;
+}
+.fuzhi .right .ltop .looooo{
+    width:4px;
+    height:20px;
+    background-color:blue;
+    margin-top:15px;
+    float:left;
+}
+.fuzhi .right .ltop .iooooo{
+    display:block;
+    margin-left:10px;
+    margin-top:12px;
+    font-size:18px;
+    color:blue;
+    float:left;
+}
+
 
 /* 分割 */
 
@@ -1970,6 +2154,12 @@ a{
     height:360px;
     float:right;
 }
+.fuzh .left .lz img{
+    opacity: 1;
+}
+.fuzh .left .lz img:hover{
+    opacity: 0.9;
+}
 .fuzh .left .lxx{
     width:590px;
     height:41px;
@@ -2071,6 +2261,12 @@ a{
     float:right;
     background-color: white;
 }
+.fuzh .right .lz img{
+    opacity: 1;
+}
+.fuzh .right .lz img:hover{
+    opacity: 0.9;
+}
 .fuzh .right .lxx{
     width:600px;
     height:41px;
@@ -2164,6 +2360,26 @@ a{
     height:20px;
     float:left;
     background-color: #F9F9F9;
+}
+.fuzh .left .ltop .lvs{
+    width:4px;
+    height:20px;
+    background-color:gold;
+    margin-top:15px;
+    float:left;
+}
+.fuzh .left .ltop .lsd{
+    color:gold;
+}
+.fuzh .left .ltop .lvss{
+    width:4px;
+    height:20px;
+    background-color:darkmagenta;
+    margin-top:15px;
+    float:left;
+}
+.fuzh .left .ltop .lsdd{
+    color:darkmagenta;
 }
 
 /* 分割 */
