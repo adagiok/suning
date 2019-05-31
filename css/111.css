@@ -496,7 +496,16 @@ a{
 .topb .lunbo .brightz{
     width:140px;
     height:170px;
-    margin-top: 10px
+    margin-top: 10px;
+    line-height: 18px;
+}
+.topb .lunbo .brightz p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.topb .lunbo .brightz .l{
+    margin-left:14px;
+    color:#ff6700;
 }
 .topb .lunbo .boright img{
     display:block;
@@ -638,13 +647,11 @@ a{
 .heada .heads .fff{
     width:133px;
     height:24px;
-    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
-    background:linear-gradient(to right,#ff3433,#ff7a18);
     border-radius:50px;
     line-height:24px;
     float:left;
     text-align:center;
-    color:white;
+    color:black;
     font-size:14px;
     margin-top:12px;
     margin-left:50px;
@@ -660,7 +667,7 @@ a{
     color:black;
     font-size:14px;
     margin-top:12px;
-    margin-left:50px;
+    margin-left:40px;
 }
 .heada .heads .f{
     width:133px;
@@ -673,7 +680,7 @@ a{
     color:black;
     font-size:14px;
     margin-top:12px;
-    margin-left:40px;
+    margin-left:45px;
 }
 .heada .heads .f:hover{
     background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
@@ -681,6 +688,11 @@ a{
     color:white;
 }
 .heada .heads .ff:hover{
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    color:white;
+}
+.heada .heads .fff:hover{
     background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
     background:linear-gradient(to right,#ff3433,#ff7a18);
     color:white;
@@ -1276,7 +1288,6 @@ a{
 }
 .headc .san .wu span{
     display:block;
-    margin-top:30px;
     text-align: center;
     color:black;
 }
@@ -1287,10 +1298,10 @@ a{
     color:#E16766;
     font-size:13px;
 }
-.headc .san .wu img{
+.headc .zn .wu img{
     display:block;
     margin:0 auto;
-    margin-top:35px;
+    margin-top:27px;
 }
 .headc .san .wu p{
     display:block;
@@ -1346,6 +1357,34 @@ a{
 }
 .headc .san .neik .linquc{
     margin-top:7px;
+}
+.headc .shangh .sao{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #E16766;
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+    margin-top: 20px;
+}
+.headc .shangh .sao:hover .saoq{
+    transform:translateY(-100px);
+    transition: all 1s;
+}
+.headc .shangh .sao .saoq{
+    display: block;
+    width: 100px;
+    height: 200px;
+    background-color: #E16766;
+    margin: 0 auto;
+    position:absolute;
+    top:0;
+    right:0;
+    transition: all 1s;
+}
+.headc .shangh .sao .saoq img{
+    display: block;
 }
 
 
